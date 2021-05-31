@@ -1,0 +1,50 @@
+.card {
+  max-width: 502px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  background: #ffffff;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+.card:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.card__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.card__price {
+  font-size: 24px;
+  line-height: 24px;
+  color: #2196f3;
+}
+
+.card__info-items {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.card__info-items:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.card__info-item-title {
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  color: #a0b0b9;
+}
+
+.card__info-item-text {
+  font-size: 14px;
+  line-height: 21px;
+  color: #4a4a4a;
+}

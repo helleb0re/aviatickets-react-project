@@ -1,0 +1,19 @@
+.container {
+  max-width: 960px;
+  padding: 0 103px;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.row__left {
+  margin-right: 20px;
+}
+
+.row__right {
+  flex-grow: 1;
+}

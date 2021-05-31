@@ -1,0 +1,42 @@
+.btn-group {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-bottom: 20px;
+}
+
+.btn {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+
+  color: #4a4a4a;
+  flex-grow: 1;
+  cursor: pointer;
+
+  background: #ffffff;
+  box-sizing: border-box;
+  border: 1px solid #dfe5ec;
+  border-right: 0.5px solid #dfe5ec;
+  border-left: 0.5px solid #dfe5ec;
+  padding: 14px 0;
+}
+
+.btn--active {
+  background: #2196f3;
+  border: none;
+  color: #fff;
+  cursor: default;
+}
+
+.btn:first-child {
+  border-radius: 5px 0 0 5px;
+  border-left: 1px solid #dfe5ec;
+}
+
+.btn:last-child {
+  border-radius: 0 5px 5px 0;
+  border-right: 1px solid #dfe5ec;
+}

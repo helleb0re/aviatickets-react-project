@@ -1,0 +1,62 @@
+.side-filter__container {
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  height: 40px;
+  z-index: 100;
+}
+
+.side-filter__container:hover {
+  background: #f1fcff;
+  cursor: pointer;
+}
+
+.side-filter__input {
+  margin-right: 10px;
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.side-filter__input:hover {
+  cursor: pointer;
+}
+
+.side-filter__label {
+  display: flex;
+  align-items: center;
+
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+
+  color: #4a4a4a;
+}
+
+.side-filter__label:hover {
+  cursor: pointer;
+}
+
+.side-filter__checkmark {
+  display: block;
+  width: 20px;
+  height: 20px;
+  border: 1px solid #9abbce;
+  box-sizing: border-box;
+  border-radius: 2px;
+  margin-right: 10px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.side-filter__checkmark-img {
+  opacity: 0;
+}
+
+.side-filter__checkmark-img--active {
+  opacity: 1;
+}

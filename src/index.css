@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+p {
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+button {
+  outline: none;
+  padding: 0;
+  margin: 0;
+  border: none;
+}
+
+body {
+  margin: 0;
+  background: #f3f7fa;
+}
+
+#root {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+}

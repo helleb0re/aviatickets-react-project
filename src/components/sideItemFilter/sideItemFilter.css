@@ -1,0 +1,18 @@
+.side-filter {
+  width: 232px;
+  height: 252px;
+  background: #ffffff;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+.side-filter__title {
+  font-size: 12px;
+  line-height: 12px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  color: #4a4a4a;
+  padding: 20px;
+  padding-bottom: 0;
+}
